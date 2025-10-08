@@ -13,9 +13,11 @@
 }
 
 .container {
-    border: 1px solid #000;
+    border: 2px solid #bfbdbd;
     border-radius: 2px;
     padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     transition: 1s; 
     /* height: 0px; */
     /* transform: translateY(-50px); */
@@ -27,10 +29,32 @@
 } 
  */
 
+.btn-collapse {
+    background-color: rgb(32, 152, 250);
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 30px;
+    border: 2px solid #899dfe;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-collapse:hover {
+    /* transform: scale(1.1); */
+    background-color: #4cc9fa;
+}
+
  .active {
     /* transform: translateY(0);  */
  }
 
  .copy {
     transition: 1s;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    
  }
